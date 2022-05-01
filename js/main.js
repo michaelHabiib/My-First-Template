@@ -1,6 +1,6 @@
 // show menu bar
 const spanLinks = document.querySelector(".header .icon")
-const secondSpan = document.querySelector(".header button .full-width") 
+const secondSpan = document.querySelector(".header .full-width") 
 const shuffleMenu = document.querySelector(".header ul")
 const mainBody = document.querySelector("body")
 
