@@ -1,14 +1,13 @@
 // show menu bar
-const spanLinks = document.querySelector(".header button")
+const spanLinks = document.querySelector(".header .icon")
 const secondSpan = document.querySelector(".header button .full-width") 
 const shuffleMenu = document.querySelector(".header ul")
 const mainBody = document.querySelector("body")
 
-spanLinks.onclick = function showMenuBar() {
-    shuffleMenu.style.display = "block";
+spanLinks.addEventListener("click" , function() {
+    shuffleMenu.classList.toggle("open")
     secondSpan.style.width = "100%";
-    // console.log("hello from js file");
-}
+})
 // show menu bar
 
 // show seeting box
