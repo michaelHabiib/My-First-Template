@@ -2,12 +2,11 @@
 const spanLinks = document.querySelector(".header .icon")
 const secondSpan = document.querySelector(".header .full-width") 
 const shuffleMenu = document.querySelector(".header ul")
-const mainBody = document.querySelector("body")
 
 spanLinks.addEventListener("click" , function() {
-    shuffleMenu.classList.toggle("open")
+    shuffleMenu.classList.toggle("open");
     secondSpan.style.width = "100%";
-})
+});
 // show menu bar
 
 // show seeting box
