@@ -102,6 +102,9 @@ ul{
     display: none;
     z-index: 1;
 }
+.header .container .links ul.open{
+    display: block;
+}
 .header .container .links ul::before{
     content: "";
     position: absolute;
